@@ -8,18 +8,18 @@ import {
 const benefitItems = [
   {
     value: "certification",
-    trigger: "German certificate",
-    content: "You will recieve a german certificate",
+    trigger: "Немецкая акредитация",
+    content: "Вы получите немецкий сертификат",
   },
-  {
-    value: "scholarship",
-    trigger: "Scholarship",
-    content: "Job center will pay for your education",
-  },
+  // {
+  //   value: "scholarship",
+  //   trigger: "Scholarship",
+  //   content: "Job center will pay for your education",
+  // },
   {
     value: "remote",
-    trigger: "Remote",
-    content: "You can study from any place",
+    trigger: "Формат обучения",
+    content: "Вы можете обучаться непосредственно с преподавателем, а также в онлайн формате ",
   },
 ];
 
@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
      <section>
-        <h2 className="text-center text-4xl mb-3">Benifits</h2>
+        <h2 className="text-center text-4xl mb-3">Преимущества</h2>
 
         <Accordion
           type="single"

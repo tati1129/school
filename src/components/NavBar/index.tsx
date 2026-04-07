@@ -6,7 +6,7 @@ export default function index() {
 <nav>
     <Link href="/">Главная</Link>
     <Link href="/about">О школе</Link>
-    {/* <Link href="/materials"></Link> */}
+    <Link href="/online-shop">Online-shop</Link>
     <Link href="/contacts">Контакты</Link>
 </nav>
   )
